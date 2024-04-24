@@ -41,11 +41,11 @@ int main() {
     for (int i = 0; i < MATRIX_SIZE; i++) {
         for (int j = 0; j < MATRIX_SIZE; j++) {
             matrixA[i][j] = rand() % 10;
-          matrixB[i][j] = rand() % 10;
+            matrixB[i][j] = rand() % 10;
         }
     }
 
- // Initialize resultMatrix to zero
+    // Initialize resultMatrix to zero
     for (int i = 0; i < MATRIX_SIZE; i++) {
         for (int j = 0; j < MATRIX_SIZE; j++) {
             resultMatrix[i][j] = 0;
@@ -80,7 +80,6 @@ int main() {
         }
         printf("\n");
     }
-  printf("Total calculation count: %d\n", calculationCount);  
    printf("Number of completed calculations: %d\n", calculationCount);
     
     return 0;
